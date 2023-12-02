@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/sBx8h5kop0c9KcXaByOA+hOYx69625f0lE/NWzJJ0eTcQVHYPDkHwVLyFwm/5sin3tbE/FqBg45/MfsOBB9oA==",
+  "dgSpecHash": "9skRE1jO/xwe/kSH9SElL6EovSAnpOw7PSEBxqTir5/39CmXlp/plz/ELMV6uw/gAPJng8VkJ4tntAmlcsvrYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rosea\\repos\\AdventOfCode\\AdventOfCode2023\\AdventCode1.1\\AdventCode1.1\\AdventCode1.1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\rosea\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\rosea\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\rosea\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\rosea\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDay1\\AdventCode1.2\\AdventCode1.2.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

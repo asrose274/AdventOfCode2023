@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/sBx8h5kop0c9KcXaByOA+hOYx69625f0lE/NWzJJ0eTcQVHYPDkHwVLyFwm/5sin3tbE/FqBg45/MfsOBB9oA==",
+  "dgSpecHash": "XqZtRv2EfjwxWv+E6LEtgZ1ryfhP2TeScLxguziDU+YyNL5nvaPnGcYlTZ8HpsZ/KUahhmFxGS/D27mbDQwsKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rosea\\repos\\AdventOfCode\\AdventOfCode2023\\AdventCode1.1\\AdventCode1.1\\AdventCode1.1.csproj",
+  "projectFilePath": "c:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDay1\\AdventCode1.1\\AdventCode1.1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rosea\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "C:\\Users\\rosea\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",

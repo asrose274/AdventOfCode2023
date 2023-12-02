@@ -1013,9 +1013,11 @@ int sum = 0;
 
 foreach (string code in codes)
 {
-    string[] strings = Regex.Split(code, @"\d-");
+    string newCode = TextToNumber(code);
+    string[] strings = Regex.Split(newCode, @"\D?");
+
     List<int> numbers = new List<int>();
-    
+
     foreach (string value in strings)
     {
         if (!string.IsNullOrEmpty(value))
@@ -1027,37 +1029,66 @@ foreach (string code in codes)
 
 }
 
-public int TextToInt(string input)
-{
-    int number;
-
-    switch(input)
-    {
-        case "one":number = 1;
-            break;
-        case "two": number = 2;
-            break;
-        case "three": number = 3; 
-            break;
-        case"four": number = 4;
-            break;
-        case "five": number = 5;
-            break;
-        case "six": number = 6;
-            break;
-        case "seven": number = 7;
-            break;
-        case "eight": number = 8;
-            break;
-        case "nine": number = 9;
-            break;
-        default: number = 0; 
-            break;
-    };
-
-    return number;
-}
-
 Console.WriteLine(sum);
 
+string TextToNumber(string input)
+{
+    if (!TextContainsNumber(input))
+    {
+        return input;
+    }
 
+//The replace esenstially adds the number between the text of the writtin number as to not lose any overlapping characters
+    if (input.Contains("one"))
+    {
+        input = input.Replace("one", "one1one");
+    }
+    if (input.Contains("two"))
+    {
+        input = input.Replace("two", "two2two");
+    }
+    if (input.Contains("three"))
+    {
+        input = input.Replace("three", "three3three");
+    }
+    if (input.Contains("four"))
+    {
+        input = input.Replace("four", "four4four");
+    }
+    if (input.Contains("five"))
+    {
+        input = input.Replace("five", "five5five");
+    }
+    if (input.Contains("six"))
+    {
+        input = input.Replace("six", "six6six");
+    }
+    if (input.Contains("seven"))
+    {
+        input = input.Replace("seven", "seven7seven");
+    }
+    if (input.Contains("eight"))
+    {
+        input = input.Replace("eight", "eight8eight");
+    }
+    if (input.Contains("nine"))
+    {
+        input = input.Replace("nine", "nine9nine");
+    }
+
+
+    return input;
+}
+
+
+
+
+
+
+bool TextContainsNumber(string input)
+{
+    string[] containedValues = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+
+    return containedValues.Any(input.Contains);
+
+}
