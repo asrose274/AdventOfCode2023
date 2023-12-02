@@ -1013,7 +1013,7 @@ int sum = 0;
 
 foreach (string code in codes)
 {
-    string[] strings = Regex.Split(code, @"\D?");
+    string[] strings = Regex.Split(code, @"\d-");
     List<int> numbers = new List<int>();
     
     foreach (string value in strings)
@@ -1025,6 +1025,37 @@ foreach (string code in codes)
     sum += int.Parse(uncoded);
     Console.WriteLine(int.Parse(uncoded));
 
+}
+
+public int TextToInt(string input)
+{
+    int number;
+
+    switch(input)
+    {
+        case "one":number = 1;
+            break;
+        case "two": number = 2;
+            break;
+        case "three": number = 3; 
+            break;
+        case"four": number = 4;
+            break;
+        case "five": number = 5;
+            break;
+        case "six": number = 6;
+            break;
+        case "seven": number = 7;
+            break;
+        case "eight": number = 8;
+            break;
+        case "nine": number = 9;
+            break;
+        default: number = 0; 
+            break;
+    };
+
+    return number;
 }
 
 Console.WriteLine(sum);
