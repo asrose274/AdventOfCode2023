@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwLWF0htw5E9hnvj9TlxXM8lXq47mEkkpl4KgJuMoVFKZa7rq+XwvSo5MhyfZChcgqlSIBufMbaqLA/BcdaZvQ==",
+  "dgSpecHash": "K7hgR7qfzwxpCJWIUcTi+rZNNwEl7TEn34IfIqka3Q6Vk82QmT97JQzjmBDn9NBBszvJX8kg6VQ/ZPEkrbXwdQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDays\\AdventCode2.2\\AdventCode2.2.csproj",
+  "projectFilePath": "C:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDays\\AdventCode2.2\\AdventCode2.2.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
