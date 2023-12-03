@@ -110,8 +110,8 @@ Game 100: 2 blue, 1 red; 4 blue, 2 red, 1 green; 7 red, 5 blue; 2 red, 1 green, 
 input = input.Replace("\r", string.Empty);
 games = input.Split('\n');
 
-string testGame = "Game 99: 7 green, 3 red, 9 blue; 3 blue, 2 red, 4 green; 2 red, 6 green, 1 blue; 1 blue, 1 red, 1 green; 11 green, 1 red, 12 blue";
-int testvalue = BlocksPower(testGame);
+// string testGame = "Game 99: 7 green, 3 red, 9 blue; 3 blue, 2 red, 4 green; 2 red, 6 green, 1 blue; 1 blue, 1 red, 1 green; 11 green, 1 red, 12 blue";
+// int testvalue = BlocksPower(testGame);
 int sum = 0;
 foreach (string game in games)
 {
