@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDay1\\AdventCode1.2\\AdventCode1.2.csproj",
+      "projectUniqueName": "C:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDays\\AdventCode1.2\\AdventCode1.2.csproj",
       "projectName": "AdventCode1.2",
-      "projectPath": "C:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDay1\\AdventCode1.2\\AdventCode1.2.csproj",
+      "projectPath": "C:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDays\\AdventCode1.2\\AdventCode1.2.csproj",
       "packagesPath": "C:\\Users\\rosea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDay1\\AdventCode1.2\\obj\\",
+      "outputPath": "C:\\Users\\rosea\\source\\repos\\AdventOfCode2023\\AdventCodeDays\\AdventCode1.2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
