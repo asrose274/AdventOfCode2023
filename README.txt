@@ -11,10 +11,13 @@ I will comment in my commit if I used someone elses solution
 Results:
 
 Day 1: **
-C#     
+C#
+
 Day 2: **
-C#    
+C#  
+
 Day 3: **
-Python      
+Python 
+     
 Day 4: **
 Python    
